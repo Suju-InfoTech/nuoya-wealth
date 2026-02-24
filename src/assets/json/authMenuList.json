@@ -1,0 +1,139 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "path": "/email",
+            "name": "email",
+            "component": "/email/index",
+            "meta": {
+                "title": "邮件列表",
+                "isHide": false,
+                "icon": "Message"
+            },
+            "children": []
+        },
+        {
+            "path": "/emailDetail",
+            "name": "emailDetail",
+            "component": "/email/edit",
+            "meta": {
+                "title": "邮件详情",
+                "isHide": true,
+                "activeMenu": "/email"
+            },
+            "children": []
+        },
+        {
+            "path": "/task",
+            "name": "task",
+            "component": "/task/index",
+            "meta": {
+                "title": "任务清单",
+                "isHide": false,
+                "icon": "List"
+            },
+            "children": []
+        },
+        {
+            "path": "/taskDetail",
+            "name": "taskDetail",
+            "component": "/task/edit",
+            "meta": {
+                "title": "任务详情",
+                "isHide": true,
+                "activeMenu": "/task"
+            },
+            "children": []
+        },
+        {
+            "path": "/rule",
+            "name": "rule",
+            "component": "/rule/index",
+            "meta": {
+                "title": "规则管理",
+                "isHide": false,
+                "icon": "Setting"
+            },
+            "children": []
+        },
+        {
+            "path": "/ruleDetail",
+            "name": "ruleDetail",
+            "component": "/rule/edit",
+            "meta": {
+                "title": "规则详情",
+                "isHide": true,
+                "activeMenu": "/rule"
+            },
+            "children": []
+        },
+        {
+            "path": "/dictionary",
+            "name": "dictionary",
+            "component": "/dictionary/index",
+            "meta": {
+                "title": "数据字典",
+                "isHide": false,
+                "icon": "Notebook"
+            },
+            "children": []
+        },
+        {
+            "path": "/dictionaryAdd",
+            "name": "dictionaryAdd",
+            "component": "/dictionary/edit",
+            "meta": {
+                "title": "数据字典添加",
+                "isHide": true,
+                "activeMenu": "/dictionary"
+            },
+            "children": []
+        },
+        {
+            "path": "/perm",
+            "name": "perm",
+            "component": "/perm/index",
+            "meta": {
+                "title": "人员权限",
+                "isHide": false,
+                "icon": "User"
+            },
+            "children": []
+        },
+        {
+            "path": "/permDetail",
+            "name": "permDetail",
+            "component": "/perm/edit",
+            "meta": {
+                "title": "人员权限详情",
+                "isHide": true,
+                "activeMenu": "/perm"
+            },
+            "children": []
+        },
+        {
+            "path": "/role",
+            "name": "role",
+            "component": "/role/index",
+            "meta": {
+                "title": "角色列表",
+                "isHide": true,
+                "icon": "User",
+                "activeMenu": "/perm"
+            },
+            "children": []
+        },
+        {
+            "path": "/roleDetail",
+            "name": "roleDetail",
+            "component": "/role/editRole",
+            "meta": {
+                "title": "角色详情",
+                "isHide": true,
+                "activeMenu": "/role"
+            },
+            "children": []
+        }
+    ],
+    "msg": "成功"
+}
