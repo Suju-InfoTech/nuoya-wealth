@@ -1,0 +1,23 @@
+
+html,
+body,
+#app,
+#watermark {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.el-container {
+  width: 100%;
+  height: 100%;
+}
+.el-menu-item.is-active::before {
+  left: 0;
+}
+
+.el-collapse-item__title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
